@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viktor Tsoy</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="round"></div>
+                <img src="img/avatar.jpg" alt="" class="avatar">
+            </div>
+            <h1 class="name">Цой Виктор</h1>
+            <p class="header-text">Frontend-разработчик</p>
+        </div>
+    </header>
+    
+    <section class="main">
+        <div class="container">
+            <div class="main-left">
+                <div class="main-left__up">
+                    <h3>Soft скилы</h3>
+                    <div class="communication"><p class="communication_text">Коммуникативность</p></div>
+                    <div class="teamwork"><p class="teamwork_text">Работа в команде</p></div>
+                    <div class="creativity"><p class="creativity_text">Креативность</p></div>
+                </div>
+                <div class="main-left__down">
+                    <h3>Знания</h3>
+                    <div class="icons">
+                        <img src="img/icon1.png" alt="" class="icon1">
+                        <img src="img/icon2.png" alt="" class="icon2">
+                        <img src="img/icon3.png" alt="" class="icon3">
+                    </div>
+                </div>
+            </div>
+            <div class="main-line">
+                
+            </div>
+            <div class="main-right">
+                <div class="main-right__up">
+                    <h3>Опыт</h3>
+                    <p class="expirience1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, rerum.</p>
+                    <p class="expirience2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis, ullam?</p>
+                    <p class="expirience3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, deserunt.</p>
+                </div>
+                <div class="main-right__down">
+                    <h3>Языки</h3>
+                    <p class="eng">Английский <img src="img/eng.png" alt="" class="eng-flag"></p>
+                    <p class="ru">Русский <img src="img/ru.png" alt="" class="ru-flag"></p>
+                    <p class="uzb">Узбекский <img src="img/uzb.png" alt="" class="uzb-flag"></p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <div class="footer-nav">
+                <ul class="footer-nav__list">
+                    <li class="footer-nav__item"><a href="tel:+998911648128">Позвонить <img src="img/call.png" alt=""></a></li>
+                    <li class="footer-nav__item"><a target="_blank" href="https://t.me/TsoyViktorR">Telegram <img src="img/tg.png" alt=""></a></li>
+                    <li class="footer-nav__item"><a target="_blank" href="mailto:viktortsoy164@gmail.com">Email <img src="img/mail.png" alt=""></a></li>
+                    <div class="round footer-round"></div>
+                </ul> 
+            </div>
+            <form action="" method="" class="form-main">
+                <h4 class="form-main__title">Связаться со мной</h4>
+                <div class="form-up">
+                    <input type="text" name="" id="name" placeholder="введите свое имя">                
+                    <input type="tel" name="" id="tel" placeholder="введите свой номер">                
+                </div>
+                <div class="form-down">
+                    <input type="email" name="" id="email" placeholder="введите свой email">                
+                    <select name="select_action" required="required" id="list">
+                        <option value="">выберите действие</option>
+                        <option value="действие1">действие1</option>
+                        <option value="действие2">действие2</option>
+                        <option value="действие3">действие3</option>
+                        <option value="действие4">действие4</option>
+                    </select>                
+                </div>
+                <textarea name="" id="text" cols="30" rows="10" placeholder="поле для ввода текста"></textarea>         
+                <button class="form-main__btn">Отправить</button>       
+            </form>
+            <h4 class="form-main__title">Написать мне в телеграм бот</h4>
+            <form action="https://api.telegram.org/bot5882676468:AAETOui4oU6leqUZjMCkzpQ8-DEjy2viBXk/sendMessage" method="get" id="form-telegram">
+                <input type="hidden" name="chat_id" value="73930298">
+                <textarea name="text" id="form-telegram__text" cols="30" rows="10" placeholder="напишите сообщение (можете отправить оценку за домашку)"></textarea>
+                <button class="form-telegram__btn">Отправить</button>
+            </form>
+        </div>
+    </footer>
+</body>
+</html>
